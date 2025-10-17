@@ -62,16 +62,15 @@ nyc-restaurant-menus-cleaning/
 ├── README.md                          # This file
 ├── data/
 │   ├── raw/
-│   │   └── restaurants_raw_sample.xlsx        # Original messy data (100 rows)
+│   │   └── restaurant_db_original_raw_dataset.xlsx        # Original messy data (100 rows sample)
 │   └── cleaned/
-│       └── restaurants_cleaned_sample.xlsx    # Cleaned data (100 rows)
+│       └── restaurant_db_cleaned.xlsx    # Cleaned data (100 rows sample)
 ├── sql/
 │   └── data_cleaning.sql              # Complete cleaning script
-├── documentation/
-│   ├── data_dictionary.md             # Column descriptions
-│   └── cleaning_decisions.md          # Rationale for cleaning choices
-└── images/
-    └── screenshots/                   # Before/after comparisons
+└── documentation/
+    ├── data_dictionary.md             # Column descriptions
+    └── cleaning_decisions.md          # Rationale for cleaning choices
+
 ```
 
 
